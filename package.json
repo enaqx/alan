@@ -1,0 +1,15 @@
+{
+  "name": "alan",
+  "version": "0.0.1",
+  "description": "Alan",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Nick Raienko <enaqxx@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3"
+  }
+}
