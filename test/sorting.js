@@ -16,4 +16,15 @@ describe('Sorting Algorithms', () => {
            ['four', 'one', 'three', 'two']
     );
   });
+
+  it('Quicksort', () => {
+    assert.deepEqual(
+      sort([2, 154, 1, 568, 324, 655], 'quicksort'),
+           [1, 2, 154, 324, 568, 655]
+    );
+    assert.deepEqual(
+      sort(['one', 'two', 'three', 'four'], 'quicksort'),
+           ['four', 'one', 'three', 'two']
+    );
+  });
 });
