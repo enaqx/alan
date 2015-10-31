@@ -19,11 +19,22 @@ describe('Sorting Algorithms', () => {
 
   it('Quicksort', () => {
     assert.deepEqual(
-      sort([2, 154, 1, 568, 324, 655], 'quicksort'),
+      sort([2, 154, 1, 568, 324, 655], 'quick'),
            [1, 2, 154, 324, 568, 655]
     );
     assert.deepEqual(
-      sort(['one', 'two', 'three', 'four'], 'quicksort'),
+      sort(['one', 'two', 'three', 'four'], 'quick'),
+           ['four', 'one', 'three', 'two']
+    );
+  });
+
+  it('Merge Sort', () => {
+    assert.deepEqual(
+      sort([2, 154, 1, 568, 324, 655], 'merge'),
+           [1, 2, 154, 324, 568, 655]
+    );
+    assert.deepEqual(
+      sort(['one', 'two', 'three', 'four'], 'merge'),
            ['four', 'one', 'three', 'two']
     );
   });
