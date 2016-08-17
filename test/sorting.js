@@ -3,7 +3,7 @@
  */
 
 var assert = require('chai').assert;
-var sort = require('../lib/sorting');
+var sort = require('../src/sorting');
 
 describe('Sorting Algorithms', () => {
   it('Insertion Sort', () => {
