@@ -1,6 +1,6 @@
 /**
- * Sorting Algorithms Tests
- */
+  * Sorting Algorithms Tests
+  */
 
 var assert = require('chai').assert;
 var sort = require('../src/sorting');
